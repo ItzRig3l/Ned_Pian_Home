@@ -18,11 +18,18 @@
         <item name="android:layout_weight" type="">1</item>
         <item name="android:layout_width" type="">match_parent</item>
         <item name="android:layout_height" type="">match_parent</item>
-        <item name="android:textSize" type="">72sp</item>
+        <item name="android:textSize" type="">40sp</item>
         <item name="android:textColor" type="">@color/black</item>
         <item name="android:background" type="">@color/white</item>
         <item name="android:gravity" type="">bottom</item>
         <item name="android:layout_margin" type="">1dp</item>
+    </style>
+    <style name="black_keys">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+
+
 
 
 
