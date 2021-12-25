@@ -8,101 +8,66 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-
-        android:layout_width="1050dp"
-        android:layout_height="500dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout">
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/piano_roll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/key_do"
-            style="@style/my_style"
-            android:text="До" />
-
+            style="@style/my_style"/>
         <TextView
             android:id="@+id/key_re"
-            style="@style/my_style"
-            android:layout_width="match_parent"
-            android:text="Ре" />
-
+            style="@style/my_style"/>
         <TextView
             android:id="@+id/key_mi"
-            style="@style/my_style"
-            android:text="Ми" />
-
+            style="@style/my_style"/>
         <TextView
             android:id="@+id/key_fa"
-            style="@style/my_style"
-            android:text="Фа" />
-
+            style="@style/my_style"/>
         <TextView
             android:id="@+id/key_sol"
-            style="@style/my_style"
-            android:text="Соль" />
-
+            style="@style/my_style"/>
         <TextView
-            android:id="@+id/key_la"
-            style="@style/my_style"
-            android:text="Ля" />
+            android:id="@+id/key_lya"
+            style="@style/my_style"/>
 
         <TextView
             android:id="@+id/key_si"
-            style="@style/my_style"
-            android:text="Си" />
+            style="@style/my_style" />
 
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="500dp"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/do_diez"-->
+<!--            style="@style/black_keys" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/re_diez"-->
+<!--            style="@style/black_keys" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/empty_diez"-->
+<!--            style="@style/black_keys" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/fa_diez"-->
+<!--            style="@style/black_keys" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/sol_diez"-->
+<!--            style="@style/black_keys" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/lya_diez"-->
+<!--            style="@style/black_keys" />-->
+
+
+<!--    </LinearLayout>-->
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
